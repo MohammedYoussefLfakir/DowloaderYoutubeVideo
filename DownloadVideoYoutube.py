@@ -5,7 +5,7 @@ from pytube import YouTube
 video_url = input("Entrez l'URL de la vidéo YouTube : ")
 
 # Emplacement où vous voulez enregistrer les vidéos
-download_path = "C:\\Users\\simo\\Desktop"
+download_path = "C:\\Users\\user\\Desktop"
 
 def download_progress(stream, chunk, bytes_remaining):
     total_size = stream.filesize
